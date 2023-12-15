@@ -6,7 +6,7 @@ const charactersContainer = document.getElementById('charactersContainer');
 //crear la función para hacer la llamada a la API con axios
 function getCharacters() {
     //insertar endpoint
-    axios.get("https://rickandmortyapi.com/api/character")
+    axios.get("https://rickandmortyapi.com/api/charact")
         .then((response) => {
             console.log(response.data.results);
         })
